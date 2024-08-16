@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\API\General\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -14,3 +15,6 @@ Route::controller(RegisterController::class)->group(function () {
 Route::middleware('auth:sanctum')->group(function () {
     Route::resource('products', ProductController::class);
 });
+
+// *** user routes
+Route::get('/users', [UserController::class, 'getUsers']);
