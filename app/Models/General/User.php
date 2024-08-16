@@ -23,10 +23,10 @@ class User extends Model
             'users.id',
             'users.name as username',
             'users.email',
-            // 'users.role',
-            // 'users.status',
-        );
-            // ->where('status', 'enable');
+            'users.role',
+            'users.status',
+        )
+            ->where('status', 'enable');
 
         if ($id) {
             $query->where('id', $id);
