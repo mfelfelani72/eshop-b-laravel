@@ -11,12 +11,17 @@ class UserController extends BaseController
 {
     public function getUsers()
     {
+        // $user = new User();
+        // $users = $user->getUser();
+
+        // if ($users)
+        //     return $this->sendResponse($users, 200);
+
+        // return $this->sendError('no users', 100);
+
         $user = new User();
-        $users = $user->getUser();
-
-        if ($users)
-            return $this->sendResponse($users, 200);
-
-        return $this->sendError('no users', 100);
+        return response()->json([
+            'users' => $user->getUser()
+        ], 200);
     }
 }
