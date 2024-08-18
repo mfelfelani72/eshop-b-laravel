@@ -11,7 +11,10 @@ Route::controller(LoginController::class)->group(function () {
     Route::post('login', 'login');
 });
 
+Route::group(['middleware' => ['auth:sanctum']], function () {
 
-
-// *** user routes
-Route::get('/users', [UserController::class, 'getUsers'])->middleware(['auth:sanctum']);
+    Route::middleware(['App\Http\Middleware\AdminMiddleware'])->group(function () {
+        Route::get('/users', [UserController::class, 'getUsers']);
+    });
+   
+});
