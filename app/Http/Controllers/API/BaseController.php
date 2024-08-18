@@ -16,7 +16,7 @@ class BaseController extends Controller
     {
         $response = [
             'success' => true,
-            'information'    => $result,
+            'result'    => $result,
             'message' => $message,
         ];
 
@@ -28,11 +28,11 @@ class BaseController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function sendError($error, $errorMessages = [])
+    public function sendError($message, $errorMessages = [])
     {
         $response = [
             'success' => false,
-            'message' => $error,
+            'message' => $message,
         ];
 
         if (!empty($errorMessages)) {

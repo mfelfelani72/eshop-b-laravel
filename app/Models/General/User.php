@@ -21,7 +21,7 @@ class User extends Model
 
         $query = User::select(
             'users.id',
-            'users.name as username',
+            'users.user_name as username',
             'users.email',
             'users.role',
             'users.status',
