@@ -228,6 +228,19 @@ class UserController extends BaseController
                         "summary" => " ",
                         "thImage" => "https://cimg.co/wp-content/uploads/2024/07/03010224/1719968544-2.jpg"
                     ],
+                    [
+                        "title" => "Bitcoin long liquidation dominance hits 70% in June amid 2024 market volatility",
+                        "articleBody" => "On-chain Highlights DEFINITION: The percentage of long liquidations out of all liquidations in a given timeframe, i.e., long liquidations / (long liquidations + short liquidations). In percentage terms, 50% means that there have been an equal amount of long and short liquidations, while values above 50% indicate more long liquidations, and values below 50% indicate […]\nThe post Bitcoin long liquidation dominance hits 70% in June amid 2024 market volatility appeared first on CryptoSlate.\n",
+                        "pubDate" => 1719968425,
+                        "keywords" => [],
+                        "author" => "News Desk",
+                        "link" => "https://cryptoslate.com/insights/bitcoin-long-liquidation-dominance-hits-70-in-june-amid-2024-market-volatility/",
+                        "provider" => "Cryptoslate",
+                        "category" => "cryptocurrencies",
+                        "summary" => " ",
+                        "thImage" => "https://cryptoslate.com/wp-content/uploads/2024/07/long.png"
+
+                    ],
                 ]
             ]
 
