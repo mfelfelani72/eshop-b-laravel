@@ -125,6 +125,109 @@ class UserController extends BaseController
                         "Neutral" => 0,
                         "Positive" => 0
                     ],
+                    [
+                        "title" => " Ethereum will outperform Bitcoin after ETF launch: K33 Research ",
+                        "articleBody" => " ",
+                        "pubDate" => 1719975089,
+                        "keywords" => [
+                            "ethereum etf",
+                            " ethereum bitcoin",
+                            " ethereum price prediction",
+                            " ethereum price",
+                            " eth price",
+                            " eth/btc",
+                            " ethereum vs bitcoin",
+                            " eth invest",
+                            " ethereum crypto",
+                            " eth etf",
+                            " ether etf",
+                            " bitcoin etf",
+                            " k33 research"
+                        ],
+                        "author" => "Cointelegraph by Tom Mitchelhill",
+                        "link" => "https://cointelegraph.com/news/ethereum-price-will-outperform-bitcoin-following-eth-etf-launch-analysts",
+                        "provider" => "Cointelegraph",
+                        "category" => "cryptocurrencies",
+                        "summary" => "",
+                        "thImage" => "https://images.cointelegraph.com/images/840_aHR0cHM6Ly9zMy5jb2ludGVsZWdyYXBoLmNvbS91cGxvYWRzLzIwMjQtMDcvYzUzOGQwNTctMmYzNy00NzdmLTk5NmUtMGQwOTMwZTI0ZTQwLmpwZw==.jpg",
+                        "Negative" => 0,
+                        "Neutral" => 0,
+                        "Positive" => 0
+                    ],
+                    [
+                        "title" => "Bitcoin Price Takes a Step Back: Analyzing The Recent Correction",
+                        "articleBody" => "Bitcoin price failed to continue higher above the $63,650 resistance zone. BTC is now correcting gains and might revisit the $60,850 support. Bitcoin started a downside correction from the $63,650 resistance zone. The price is trading below $62,500 and the 100 hourly Simple moving average. There is a connecting bearish trend line forming with resistance at $61,850 on the hourly chart of the BTC/USD pair (data feed from Kraken). The pair might struggle to start a fresh increase above the $62,250 resistance zone. Bitcoin Price Dips Again Bitcoin price struggled to extend gains above the $63,650 and $63,800 resistance levels. A high was formed at $63,798 and the price started a downside correction. The price declined below the $63,000 level. The bears were able to push it below the $62,500 level and the 100 hourly Simple moving average. There was also a move below the 50% Fib retracement level of the upward move from the $59,951 swing low to the $63,798 high. Bitcoin price is now trading below $62,500 and the 100 hourly Simple moving average. There is also a connecting bearish trend line forming with resistance at $61,850 on the hourly chart of the BTC/USD pair. The bulls are now trying to protect the $61,400 zone and the 61.8% Fib retracement level of the upward move from the $59,951 swing low to the $63,798 high. If there is another increase, the price could face resistance near the $61,850 level and the trend line. The first key resistance is near the $62,250 level. The next key resistance could be $62,500. A clear move above the $62,500 resistance might start a steady increase and send the price higher. In the stated case, the price could rise and test the $63,250 resistance. Any more gains might send BTC toward the $63,650 resistance in the near term. More Losses In BTC? If Bitcoin fails to climb above the $62,250 resistance zone, it could continue to move down. Immediate support on the downside is near the $61,400 level. The first major support is $60,850. The next support is now forming near $60,500. Any more losses might send the price toward the $60,000 support zone in the near term. Technical indicators: Hourly MACD – The MACD is now gaining pace in the bearish zone. Hourly RSI (Relative Strength Index) – The RSI for BTC/USD is now below the 50 level. Major Support Levels – $61,400, followed by $60,850. Major Resistance Levels – $62,250, and $62,500.",
+                        "pubDate" => 1719974918,
+                        "keywords" => [
+                            "btc",
+                            "bitcoin",
+                            "bitcoin price",
+                            "btcusd",
+                            "btcusdt",
+                            "xbtusd"
+                        ],
+                        "author" => "Aayush Jindal",
+                        "link" => "https://www.newsbtc.com/analysis/btc/bitcoin-price-back-62k/",
+                        "provider" => "NewsBTC",
+                        "summary" => "",
+                        "thImage" => "https://www.newsbtc.com/wp-content/uploads/2024/07/Bitcoin-Back.jpeg?fit=460%2C263",
+                        "category" => "cryptocurrencies",
+                        "Negative" => 0,
+                        "Neutral" => 0,
+                        "Positive" => 0
+                    ],
+                    [
+                        "title" => "Bitcoin spot volume data shows significant buying pressure pre-halving",
+                        "articleBody" => "Onchain Highlights DEFINITION: Spot Cumulative Volume Delta (CVD) measures the net difference between buying and selling trade volumes, specifically highlighting the difference in volume where the buyer or seller was the aggressor. It includes trades where USD or USD-related currencies serve as the quote currency, encompassing both fiat and stablecoins.  Bitcoin’s Spot Cumulative Volume Delta (CVD) […]\nThe post Bitcoin spot volume data shows significant buying pressure pre-halving appeared first on CryptoSlate.\n",
+                        "pubDate" => 1719972021,
+                        "keywords" => [],
+                        "author" => "News Desk",
+                        "link" => "https://cryptoslate.com/insights/bitcoin-spot-volume-data-shows-significant-buying-pressure-pre-halving/",
+                        "provider" => "Cryptoslate",
+                        "category" => "cryptocurrencies",
+                        "summary" => " ",
+                        "thImage" => "https://cryptoslate.com/wp-content/uploads/2024/07/CVD-1.png"
+                    ],
+                    [
+                        "title" => "Buckle Up: Here Is Why Bitcoin Might Just Be Gearing Up For a 200% Surge",
+                        "articleBody" => "Amid the current Bitcoin market performance suggesting signs of a rebound, prominent crypto analyst Wise Advice has highlighted a critical indicator in Bitcoin’s trading pattern. Bollinger Bands Signal 200% Bitcoin Surge According to the analyst, the Bitcoin weekly Bollinger Band, a statistical chart characterizing the prices and volatility over time, has shrunk to its second-lowest width in six years. Traditionally, such contraction has been a precursor to substantial price movements. Related Reading: Market Analysts Eye July for Potential Big Wins in Bitcoin and Ethereum — Here’s Why Wise advice disclosed that historically, a similar constriction was observed before Bitcoin surged 200% from a base of $24,000 to a high peak within five months. This indicator is particularly noteworthy as it suggests that market volatility is about to increase, potentially leading to a significant price rise. For context, Bollinger Bands are a set of trend indicators derived from a moving average and an upper and lower band, each set at a standard deviation from the moving average. This tool helps traders to assess how high or low the current price is relative to previous trades. A narrowing of these bands typically indicates a reduction in volatility. A sharp increase or decrease often follows it in price, as the market prepares to make a substantial move. Bitcoin Holders, Read this 🚨 The #Bitcoin weekly Bollinger band is now at its 2nd lowest level in 6 years. The last time it was this low, #BTC was trading at $24K, and it pumped 200% in just 5 months pic.twitter.com/jnud3pCjAr — Wise Advice (@wiseadvicesumit) July 1, 2024 Recent Market Activity and Bullish Outlook Despite a promising setup, Bitcoin has recently struggled to maintain its upward momentum. Over the past week, while there has been a modest 3% recovery, the price has faced resistance, peaking at $63,790 before dipping to around $62,563. This recent price action occurs amid broader market anticipation of a favorable July. Market analysts, including the team at QCP Capital, reference historical data showing Bitcoin’s tendency to rebound in July with an average return of 9.6%, especially after weak performances in June. This pattern of a strong July following a weak June is supported by additional market commentary. They are not alone in their optimism; other market analysts like Ali have also noted similar recovery patterns in past post-June slumps, hinting at a strong comeback in July. Supporting the bullish sentiment are the substantial inflows into US spot Bitcoin ETFs. This Monday, these funds recorded daily net inflows totaling $129.45 million, marking the fifth consecutive day of positive flows and the most substantial intake since early June. Related Reading: Bitcoin Begins Month With A Rebound As Metaplanet’s BTC Investment Tops $10 Million Leading the inflows were Fidelity’s FBTC and Bitwise’s BITB, with significant contributions, suggesting that institutional interest remains strong despite the market’s recent fluctuations. Featured image created with DALL-E, Chart from TradingView",
+                        "pubDate" => 1719972008,
+                        "keywords" => [
+                            "bitcoin news",
+                            "bitcoin",
+                            "bitcoin analysis",
+                            "bitcoin market",
+                            "bitcoin price prediction",
+                            "btc",
+                            "btcusdt",
+                            "crypto market"
+                        ],
+                        "author" => "Samuel Edyme",
+                        "link" => "https://www.newsbtc.com/bitcoin-news/buckle-up-here-is-why-bitcoin-might-just-be-gearing/",
+                        "provider" => "NewsBTC",
+                        "summary" => "",
+                        "thImage" => "https://www.newsbtc.com/wp-content/uploads/2024/07/DALL·E-2024-07-02-16.02.59-An-imaginative-digital-illustration-representing-Bitcoin-gearing-up-for-a-massive-surge.-The-scene-shows-a-large-metallic-Bitcoin-symbol-looking-lik.jpg?fit=460%2C460",
+                        "category" => "cryptocurrencies",
+                        "Negative" => 0,
+                        "Neutral" => 0,
+                        "Positive" => 0
+                    ],
+                    [
+                        "title" => "Bitcoin Price Prediction: Whales Buying In? $20 Billion Volume Hints at Year-End Rally",
+                        "articleBody" => "Bitcoin whales hint at year-end rally as trading volume surges to $20 billion despite recent price dip. Will Bitcoin price defy bearish predictions?\nThe post Bitcoin Price Prediction: Whales Buying In? $20 Billion Volume Hints at Year-End Rally appeared first on Cryptonews.\n",
+                        "pubDate" => 1719967554,
+                        "keywords" => [
+                            "bitcoin news",
+                            "bitcoin news",
+                            "crypto news"
+                        ],
+                        "author" => "Arslan Butt",
+                        "link" => "https://cryptonews.com/news/bitcoin-price-as-whales-buying-in.htm",
+                        "provider" => "CryptoNews",
+                        "category" => "cryptocurrencies",
+                        "summary" => " ",
+                        "thImage" => "https://cimg.co/wp-content/uploads/2024/07/03010224/1719968544-2.jpg"
+                    ],
                 ]
             ]
 
