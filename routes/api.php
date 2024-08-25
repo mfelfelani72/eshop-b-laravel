@@ -25,5 +25,8 @@ Route::post('/news', [UserController::class, 'getNews']);
 Route::get('/test', [UserController::class, 'test']);
 Route::get('/getAuthor', [UserController::class, 'getAuthor']);
 Route::get('/LLMChat', [UserController::class, 'LLMChat']);
+Route::get('/coinAnalyze', [UserController::class, 'coinAnalyze']);
+Route::get('/getLLMDocuments', [UserController::class, 'getLLMDocuments']);
+Route::get('/getLLMResponse', [UserController::class, 'getLLMResponse']);
 
 // cardNews

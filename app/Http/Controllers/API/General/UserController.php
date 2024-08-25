@@ -319,6 +319,70 @@ class UserController extends BaseController
 
         return response()->json($response, 200);
     }
+    public function coinAnalyze()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/LLM/LLMChat/";
+
+        $data = [
+            "prompt" => "",
+            "symbol" => "BTC-USDT",
+            "useNews" => true,
+            "useMarketData" => true,
+            "useIndicator" => true,
+            "timeframe" => "4hour",
+            "candleCount" => 10
+        ];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
+    public function getLLMDocuments()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/LLM/getLLMDocuments/";
+
+        $data = [];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
+    public function getLLMResponse()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/LLM/getLLMResponse/";
+
+        $data = [
+            "task_id" => "48e07eef-d474-47a5-8da4-3e946331369a"
+        ];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
 
     // cardNews
 }
