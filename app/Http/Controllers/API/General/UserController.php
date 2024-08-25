@@ -384,5 +384,131 @@ class UserController extends BaseController
         return response()->json($response, 200);
     }
 
+    public function GetNewsbyDateCategory()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/News/GetNewsbyDateCategory/";
+
+        $data = [
+            "symbols" => "all",
+            "startDate" => 1717939311,
+            "category" => "cryptocurrencies"
+        ];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
+    public function GetPaginatedData()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/News/GetPaginatedData/";
+
+        $data = [
+            "symbols" => "all",
+            "startDate" => 1716373411,
+            "category" => "cryptocurrencies",
+            "page" => 1,
+            "pageLimit" => 10
+        ];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
+
+    public function LLMNews()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/News/LLMNews/";
+
+        $data = [
+            "startDate" => 1717939311,
+            "category" => "cryptocurrencies"
+        ];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        dd($response);
+
+        return response()->json($response, 200);
+    }
+    public function getDBStatics()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/Provider/getDBStatics/";
+
+        $data = [
+            "startDate" => 1717939311,
+            "category" => "cryptocurrencies"
+        ];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        dd($response);
+
+        return response()->json($response, 200);
+    }
+    public function getProviders()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/Provider/getProviders/";
+
+        $data = [];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        dd($response);
+
+        return response()->json($response, 200);
+    }
+    public function getSymbols()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/Symbols/getSymbols/";
+
+        $data = [];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        dd($response);
+
+        return response()->json($response, 200);
+    }
+
     // cardNews
 }

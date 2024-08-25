@@ -28,5 +28,11 @@ Route::get('/LLMChat', [UserController::class, 'LLMChat']);
 Route::get('/coinAnalyze', [UserController::class, 'coinAnalyze']);
 Route::get('/getLLMDocuments', [UserController::class, 'getLLMDocuments']);
 Route::get('/getLLMResponse', [UserController::class, 'getLLMResponse']);
+Route::get('/GetNewsbyDateCategory', [UserController::class, 'GetNewsbyDateCategory']);
+Route::get('/GetPaginatedData', [UserController::class, 'GetPaginatedData']);
+Route::get('/LLMNews', [UserController::class, 'LLMNews']);
+Route::get('/getDBStatics', [UserController::class, 'getDBStatics']);
+Route::get('/getProviders', [UserController::class, 'getProviders']);
+Route::get('/getSymbols', [UserController::class, 'getSymbols']);
 
 // cardNews
