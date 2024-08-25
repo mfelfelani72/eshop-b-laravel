@@ -6,6 +6,7 @@ use App\Http\Controllers\API\BaseController;
 
 use App\Models\General\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
 
 class UserController extends BaseController
 {
@@ -19,6 +20,9 @@ class UserController extends BaseController
 
         return $this->sendError('no users', 100);
     }
+
+
+    // cardNews
 
     public function getNews(Request $request)
     {
@@ -248,4 +252,73 @@ class UserController extends BaseController
 
         return response()->json($response, 200);
     }
+
+    public function test()
+    {
+
+
+        $data = [
+            "symbols" => "all",
+            "startDate" => 1716373411,
+            "category" => "cryptocurrencies",
+            "page" => 1,
+            "pageLimit" => 10
+        ];
+        $response = Http::withHeaders([
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ])->post('http://79.175.177.113:15800/AimoonxNewsHUB/News/GetPaginatedData/', $data)->json();
+
+
+        // $response = Http::withHeaders([
+        //     'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        // ])->post('http://79.175.177.113:15800/AimoonxNewsHUB/Provider/getProviders/')->json();
+
+
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
+
+    public function getAuthor()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/Author/getAuthor/";
+
+        $data = [];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
+
+    public function LLMChat()
+    {
+
+        $header = [
+
+            'Authorization' => '92223bf504efcfd0e6e000ba1f4d53f4'
+        ];
+
+        $url = "http://79.175.177.113:15800/AimoonxNewsHUB/LLM/LLMChat/";
+
+        $data = [
+            "prompt" => "strat chat with me!"
+        ];
+
+        $response = Http::withHeaders($header)->post($url, $data)->json();
+
+        // dd($response);
+
+        return response()->json($response, 200);
+    }
+
+    // cardNews
 }
